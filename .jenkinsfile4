@@ -1,0 +1,18 @@
+pipeline{
+agent any
+stages{
+stage('Start Android Emulator'){
+steps{
+bat "C:\Users\PAVAN\Desktop\fly.bat"
+}
+}
+stage('Test'){
+steps{
+bat "mvn clean"
+bat "mvn compile"
+bat "mvn test"
+}
+}
+}
+
+}
