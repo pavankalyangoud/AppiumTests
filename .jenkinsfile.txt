@@ -1,0 +1,19 @@
+pipeline{
+agent any
+stages{
+stage('Start Android Emulator'){
+steps{
+bat "cd C:\Users\PAVAN\AppData\Local\Android\Sdk\emulator"
+bat "emulator -avd Pavanemulator"
+}
+}
+stage('Test'){
+steps{
+bat "mvn clean"
+bat "mvn compile"
+bat "mvn test"
+}
+}
+}
+
+}
