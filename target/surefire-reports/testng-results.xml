@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="108090" started-at="2020-06-12T11:47:20Z" finished-at="2020-06-12T11:49:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="108090" started-at="2020-06-12T11:47:20Z" finished-at="2020-06-12T11:49:08Z">
+      <class name="practice.AppiumFramework.ApiDemosTest">
+        <test-method status="PASS" signature="apiDemoHome()[pri:0, instance:practice.AppiumFramework.ApiDemosTest@51efea79]" name="apiDemoHome" duration-ms="77906" started-at="2020-06-12T11:47:20Z" finished-at="2020-06-12T11:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemoHome -->
+      </class> <!-- practice.AppiumFramework.ApiDemosTest -->
+      <class name="practice.AppiumFramework.EcommerceTest">
+        <test-method status="PASS" signature="formFilling()[pri:0, instance:practice.AppiumFramework.EcommerceTest@5034c75a]" name="formFilling" duration-ms="30112" started-at="2020-06-12T11:48:38Z" finished-at="2020-06-12T11:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formFilling -->
+      </class> <!-- practice.AppiumFramework.EcommerceTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

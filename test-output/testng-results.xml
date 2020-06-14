@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53989" started-at="2020-06-13T08:36:35Z" finished-at="2020-06-13T08:37:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53989" started-at="2020-06-13T08:36:35Z" finished-at="2020-06-13T08:37:29Z">
+      <class name="practice.AppiumFramework.ApiDemosTest">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:practice.AppiumFramework.ApiDemosTest@63753b6d]" name="killAllNodes" is-config="true" duration-ms="4041" started-at="2020-06-13T08:36:35Z" finished-at="2020-06-13T08:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="apiDemoHome()[pri:0, instance:practice.AppiumFramework.ApiDemosTest@63753b6d]" name="apiDemoHome" duration-ms="49901" started-at="2020-06-13T08:36:39Z" finished-at="2020-06-13T08:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemoHome -->
+      </class> <!-- practice.AppiumFramework.ApiDemosTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
